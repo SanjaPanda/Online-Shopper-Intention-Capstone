@@ -26,7 +26,7 @@ There is hardly any shopping on or the day's approaching any special day
 ![Month vs visits](https://github.com/SanjaPanda/Online-Shopper-Intention-Capstone/blob/master/figure/Distribution%20of%20Month%20wrt%20Revenue.png)
 May, November, March and December have peak. There are 2 opportunity windows, March - May and November - December
 
-![Weekend vs Revenue]()
+![Weekend vs Revenue](https://github.com/SanjaPanda/Online-Shopper-Intention-Capstone/blob/master/figure/Distribution%20of%20Weekend%20wrt%20Revenue.png)
 Even if on surface it looks like there is more sale during Weekdays, but during Weekends customers seem to buy more wrt visiting the site.
 
 <No. of pages and Duration>
@@ -49,7 +49,6 @@ c.	Over Sampling – SMOTE:  Synthetic Minority Over-sampling Technique (SMOTE) 
 ## Classification Algorithms used were: Logistic Regression, Decision Tree, Random Forest, XG Boost and Random Forest. 
 There were 2 models that performed well, Class Weight in SVM and Random Forest with SMOTE and Feature selection. 
 After hyper parameter tuning of the Random forest gave the highest F1 score of 71.
-<cumulative importance>
 ![Cumulative Feature Importance](https://github.com/SanjaPanda/Online-Shopper-Intention-Capstone/blob/master/figure/Cumilative%20Frequency%201.png)
 
 ## Future Improvement
