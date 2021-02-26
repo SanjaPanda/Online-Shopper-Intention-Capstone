@@ -4,7 +4,8 @@
 *E-commerce is a booming industry with lots of potential for applying Data Science. Websites have their customer activity data that can be used to improve customer performance. There are various applications such as creating a Recommendation System, Inventory management and Warranty Management etc.*
 
 ## Problem Statement:
-The boom of internet has given e-commerce websites accessibility to a large audience. In fact, an increase in website visitors can be observed. But, this increase in e-commerce usage over the past few years has created potential in the market but the conversion rate is not as high. Aim is to investigate the conversion rates, and understand what is happening.
+The customer is a e-commerce website. Over the past few years the traffic towards the website has increased considerably but the number of sales hasn't picked up as much.
+The customer wants to investigate the trend of sales happening. And also, create a model that predicts if a customer is going to generate revenue or not.
 
 ## Data: 
 Data was collected from Kaggle, linked it [here](https://www.kaggle.com/roshansharma/online-shoppers-intention).
@@ -17,7 +18,7 @@ The dataset consists of feature vectors belonging to 12,330 sessions. Each sessi
 4.	**Outlier Detection:** On further analysis, we can observe that ‘ProductRelated_Duration’ column has outliers. Hence, used tukey's method on the column to remove outliers.
 
 ## Exploratory Data Analysis:
-![Pie Chart](https://github.com/SanjaPanda/Online-Shopper-Intention-Capstone/blob/master/figure/pie.png)
+![Target Variable Distribution](https://github.com/SanjaPanda/Online-Shopper-Intention-Capstone/blob/master/figure/revenue_dist.png)
 
 In the model, Revenue is the target variable. In the pie chart, it can be observed that data is highly imbalanced.
 
